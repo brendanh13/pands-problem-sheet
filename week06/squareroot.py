@@ -16,8 +16,8 @@ def sqrt(x):                   # defining the function called sqrt which we want
         x = 0.5*(x+(z/x))      # this is the formula as per the research of Newtons Method
     return x                   # this returns the approximation of the last iteration
 
-a = int(input("Enter any postive integer: ")) # ask for number to be input
-print("The square root is {}".format(sqrt(a))) # this prints the value - using the format option to ouptput the numerical value beside the
+a = float(input("Please enter a positive number: ")) # ask for floating number to be input
+print("The square root of {} is approx. {}.".format(a, round(sqrt(a),2))) # this prints the value - using the format option to ouptput the numerical value beside the text. rounding to 2 decimal places is also included
 
 
 
